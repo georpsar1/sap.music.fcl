@@ -1,0 +1,19 @@
+{
+  "generator-ui5-ts-app": {
+    "namespace": "sap.music",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.124.1",
+    "author": "George Psaroudakis",
+    "initrepo": true,
+    "tstypes": "@sapui5/types",
+    "tstypesVersion": "1.124.1",
+    "appId": "sap.music",
+    "appURI": "sap/music",
+    "cdnDomain": "ui5.sap.com",
+    "defaultTheme": "sap_horizon",
+    "gte1_98_0": true,
+    "gte1_104_0": true,
+    "gte1_115_0": true,
+    "setupCompleted": true
+  }
+}
