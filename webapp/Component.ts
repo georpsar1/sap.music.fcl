@@ -1,7 +1,15 @@
 import UIComponent from "sap/ui/core/UIComponent";
 import models from "./model/models";
 import Device from "sap/ui/Device";
+import JSONModel from "sap/ui/model/json/JSONModel";
+import { Router$BeforeRouteMatchedEvent } from "sap/ui/core/routing/Router";
+import { LayoutType } from "sap/f/library";
 
+type routeParameters = {
+	arguments: {
+		layout: string;
+	}
+};
 /**
  * @namespace sap.music
  */
@@ -10,38 +18,40 @@ export default class Component extends UIComponent {
 		manifest: "json",
 	};
 
-	private contentDensityClass: string;
 
 	public init(): void {
 		// call the base component's init function
 		super.init();
 
-		// create the device model
-		this.setModel(models.createDeviceModel(), "device");
+
+		this.setModel(new JSONModel, "l")
+
+		var oBaseModel = new JSONModel('/model/music_dataset.json')
+		this.setModel(oBaseModel)
+
+		this.getRouter().attachBeforeRouteMatched((event: Router$BeforeRouteMatchedEvent) => void this.onBeforeRouteMatched(event), this);
+
 
 		// create the views based on the url/hash
-		this.getRouter().initialize();
+		this.getRouter().initialize()
 	}
 
-	/**
-	 * This method can be called to determine whether the sapUiSizeCompact or sapUiSizeCozy
-	 * design mode class should be set, which influences the size appearance of some controls.
-	 * @public
-	 * @returns css class, either 'sapUiSizeCompact' or 'sapUiSizeCozy' - or an empty string if no css class should be set
-	 */
-	public getContentDensityClass(): string {
-		if (this.contentDensityClass === undefined) {
-			// check whether FLP has already set the content density class; do nothing in this case
-			if (document.body.classList.contains("sapUiSizeCozy") || document.body.classList.contains("sapUiSizeCompact")) {
-				this.contentDensityClass = "";
-			} else if (!Device.support.touch) {
-				// apply "compact" mode if touch is not supported
-				this.contentDensityClass = "sapUiSizeCompact";
-			} else {
-				// "cozy" in case of touch support; default for most sap.m controls, but needed for desktop-first controls like sap.ui.table.Table
-				this.contentDensityClass = "sapUiSizeCozy";
-			}
-		}
-		return this.contentDensityClass;
+	public destroy(): void {
+		this.getRouter().detachBeforeRouteMatched((event: Router$BeforeRouteMatchedEvent) => void this.onBeforeRouteMatched(event), this);
+		super.destroy();
 	}
+	private async onBeforeRouteMatched(event: Router$BeforeRouteMatchedEvent) {
+
+		const oModel: JSONModel = this.getModel("l") as JSONModel;
+		let sLayout = (event.getParameters() as routeParameters).arguments.layout;
+
+		if (!sLayout) {
+			sLayout = LayoutType.OneColumn
+		}
+
+		oModel.setProperty("/layout",sLayout)
+
+
+	}
+
 }

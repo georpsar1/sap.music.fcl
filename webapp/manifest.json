@@ -26,24 +26,22 @@
 		"rootView": {
 			"viewName": "sap.music.view.App",
 			"type": "XML",
-			"async": true,
-			"id": "app"
+			"id": "fcl",
+			"async": true
 		},
 
 		"dependencies": {
 			"minUI5Version": "1.124.1",
 			"libs": {
 				"sap.ui.core": {},
-				"sap.m": {}
+				"sap.m": {} ,
+				"sap.f":{}
 			}
 		},
-
-		"handleValidation": true,
-
-		"contentDensities": {
-			"compact": true,
-			"cozy": true
+		"config": {
+			"fullWidth":true
 		},
+
 
 		"models": {
 			"i18n": {
@@ -53,29 +51,48 @@
 				}
 			}
 		},
-
 		"routing": {
-			"config": {
-				"routerClass": "sap.m.routing.Router",
+			"config":{
+				"routerClass": "sap.f.routing.Router",
 				"viewType": "XML",
-				"viewPath": "sap.music.view",
-				"controlId": "app",
-				"controlAggregation": "pages",
-				"async": true
+				"path": "sap.music.view",
+				"controlId": "fcl",
+				"transition":"slide",
+				"bypassed": {},
+				"async": true,
+				"controlAggregation": "beginColumnPages"
 			},
-			"routes": [
+			"routes":[
 				{
-					"pattern": "",
-					"name": "main",
-					"target": "main"
+					"pattern": ":layout:",
+					"name": "master",
+					"target":[
+						"master"
+					]
+				},
+				{
+					"pattern": "detail/{artist}/{layout}",
+					"name": "detail",
+					"target":[
+						"master",
+						"detail"
+					]
 				}
 			],
 			"targets": {
-				"main": {
-					"viewId": "main",
-					"viewName": "Main"
+				"master": {
+					"viewName": "List",
+					"controlAggregation": "beginColumnPages",
+					"viewId": "master"
+				},
+				"detail":{
+					"viewName": "Detail",
+					"controlAggregation": "midColumnPages",
+					"viewId": "detail"
 				}
 			}
 		}
+
+
 	}
 }

@@ -1,0 +1,1321 @@
+[
+    {
+        "artist": "Pop Diva",
+        "Albums": [
+            {
+                "genre": "hip hop",
+                "name": "Sunset Dreams",
+                "year": 2008,
+                "units_sold": 954360,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "classical",
+                "name": "Wildfire Whispers",
+                "year": 2008,
+                "units_sold": 21811,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:55"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Midnight Melodies",
+                "year": 1963,
+                "units_sold": 312470,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "2:15"
+                    }
+                ]
+            },
+            {
+                "genre": "country",
+                "name": "Moonlit Serenade",
+                "year": 2005,
+                "units_sold": 667946,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "5:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "pop",
+                "name": "Ocean Breeze",
+                "year": 2012,
+                "units_sold": 621733,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:20"
+                    }
+                ]
+            },
+            {
+                "genre": "metal",
+                "name": "Ocean Breeze",
+                "year": 1997,
+                "units_sold": 390346,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "4:30"
+                    }
+                ]
+            },
+            {
+                "genre": "rock",
+                "name": "Starry Nights",
+                "year": 2007,
+                "units_sold": 373640,
+                "tracks": []
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": [
+            {
+                "genre": "indie",
+                "name": "Ocean Breeze",
+                "year": 2004,
+                "units_sold": 636242,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Funky Fresh",
+        "Albums": [
+            {
+                "genre": "hip hop",
+                "name": "Moonlit Serenade",
+                "year": 2004,
+                "units_sold": 947253,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Chart Topper",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "4:15"
+                    }
+                ]
+            },
+            {
+                "genre": "indie",
+                "name": "Crystal Waters",
+                "year": 1995,
+                "units_sold": 779825,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:55"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Guitar Wizard",
+        "Albums": [
+            {
+                "genre": "rock",
+                "name": "Electric Echoes",
+                "year": 2009,
+                "units_sold": 398123,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Enchanted Forest",
+                "year": 1984,
+                "units_sold": 393302,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Chart Topper",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:30"
+                    }
+                ]
+            },
+            {
+                "genre": "hip hop",
+                "name": "Golden Memories",
+                "year": 2012,
+                "units_sold": 90515,
+                "tracks": [
+                    {
+                        "name": "Love Song",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "indie",
+                "name": "Wildfire Whispers",
+                "year": 1994,
+                "units_sold": 751273,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "2:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Techno Tiger",
+        "Albums": [
+            {
+                "genre": "electronic",
+                "name": "Moonlit Serenade",
+                "year": 1996,
+                "units_sold": 621247,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "4:15"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Wildfire Whispers",
+                "year": 1994,
+                "units_sold": 253375,
+                "tracks": []
+            },
+            {
+                "genre": "metal",
+                "name": "Electric Echoes",
+                "year": 2012,
+                "units_sold": 634482,
+                "tracks": []
+            }
+        ]
+    },
+    {
+        "artist": "MC Hammer",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Golden Memories",
+                "year": 2002,
+                "units_sold": 517147,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Guitar Wizard",
+        "Albums": []
+    },
+    {
+        "artist": "Funky Fresh",
+        "Albums": [
+            {
+                "genre": "rock",
+                "name": "Electric Echoes",
+                "year": 1986,
+                "units_sold": 523335,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:55"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Enchanted Forest",
+                "year": 1990,
+                "units_sold": 643426,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:30"
+                    }
+                ]
+            },
+            {
+                "genre": "metal",
+                "name": "Electric Echoes",
+                "year": 1993,
+                "units_sold": 892160,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:15"
+                    }
+                ]
+            },
+            {
+                "genre": "metal",
+                "name": "Crystal Waters",
+                "year": 2003,
+                "units_sold": 130979,
+                "tracks": []
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": [
+            {
+                "genre": "rock",
+                "name": "Ocean Breeze",
+                "year": 1999,
+                "units_sold": 750699,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "pop",
+                "name": "Wildfire Whispers",
+                "year": 2000,
+                "units_sold": 996495,
+                "tracks": []
+            },
+            {
+                "genre": "electronic",
+                "name": "Golden Memories",
+                "year": 2007,
+                "units_sold": 182240,
+                "tracks": [
+                    {
+                        "name": "Summer Love",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "4:30"
+                    }
+                ]
+            },
+            {
+                "genre": "hip hop",
+                "name": "Electric Echoes",
+                "year": 1996,
+                "units_sold": 62299,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "electronic",
+                "name": "Crystal Waters",
+                "year": 2008,
+                "units_sold": 495179,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:45"
+                    }
+                ]
+            },
+            {
+                "genre": "hip hop",
+                "name": "Sunset Dreams",
+                "year": 2010,
+                "units_sold": 3770,
+                "tracks": [
+                    {
+                        "name": "Hit Single",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Chart Topper",
+                        "duration": "3:10"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Midnight Melodies",
+                "year": 2008,
+                "units_sold": 664341,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "2:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Pop Diva",
+        "Albums": []
+    },
+    {
+        "artist": "Pop Diva",
+        "Albums": [
+            {
+                "genre": "electronic",
+                "name": "Crystal Waters",
+                "year": 1994,
+                "units_sold": 606840,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "3:20"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Midnight Melodies",
+                "year": 1974,
+                "units_sold": 681062,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:15"
+                    }
+                ]
+            },
+            {
+                "genre": "indie",
+                "name": "Crystal Waters",
+                "year": 1992,
+                "units_sold": 724813,
+                "tracks": [
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:55"
+                    }
+                ]
+            },
+            {
+                "genre": "classical",
+                "name": "Enchanted Forest",
+                "year": 1993,
+                "units_sold": 185471,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "hip hop",
+                "name": "Ocean Breeze",
+                "year": 2000,
+                "units_sold": 913348,
+                "tracks": [
+                    {
+                        "name": "Love Song",
+                        "duration": "3:20"
+                    }
+                ]
+            },
+            {
+                "genre": "metal",
+                "name": "Wildfire Whispers",
+                "year": 1987,
+                "units_sold": 540563,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "2:15"
+                    }
+                ]
+            },
+            {
+                "genre": "country",
+                "name": "Ocean Breeze",
+                "year": 2003,
+                "units_sold": 587623,
+                "tracks": [
+                    {
+                        "name": "Chart Topper",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": [
+            {
+                "genre": "jazz",
+                "name": "Ocean Breeze",
+                "year": 2008,
+                "units_sold": 111742,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "reggae",
+                "name": "Midnight Melodies",
+                "year": 2011,
+                "units_sold": 378606,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:10"
+                    }
+                ]
+            },
+            {
+                "genre": "rock",
+                "name": "Moonlit Serenade",
+                "year": 1993,
+                "units_sold": 528155,
+                "tracks": []
+            },
+            {
+                "genre": "pop",
+                "name": "Wildfire Whispers",
+                "year": 1997,
+                "units_sold": 690075,
+                "tracks": []
+            }
+        ]
+    },
+    {
+        "artist": "Jazz Cat",
+        "Albums": [
+            {
+                "genre": "metal",
+                "name": "Starry Nights",
+                "year": 2004,
+                "units_sold": 214787,
+                "tracks": [
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "2:30"
+                    }
+                ]
+            },
+            {
+                "genre": "electronic",
+                "name": "Electric Echoes",
+                "year": 1988,
+                "units_sold": 449051,
+                "tracks": [
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "3:20"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Crystal Waters",
+                "year": 1994,
+                "units_sold": 177619,
+                "tracks": [
+                    {
+                        "name": "Chart Topper",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "3:45"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Enchanted Forest",
+                "year": 2010,
+                "units_sold": 55968,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "4:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Disco King",
+        "Albums": []
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "electronic",
+                "name": "Starry Nights",
+                "year": 1995,
+                "units_sold": 529872,
+                "tracks": [
+                    {
+                        "name": "Love Song",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "MC Hammer",
+        "Albums": [
+            {
+                "genre": "jazz",
+                "name": "Sunset Dreams",
+                "year": 2001,
+                "units_sold": 559768,
+                "tracks": [
+                    {
+                        "name": "Hit Single",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Chart Topper",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    }
+                ]
+            },
+            {
+                "genre": "pop",
+                "name": "Crystal Waters",
+                "year": 2001,
+                "units_sold": 741917,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:45"
+                    }
+                ]
+            },
+            {
+                "genre": "country",
+                "name": "Electric Echoes",
+                "year": 2011,
+                "units_sold": 295463,
+                "tracks": [
+                    {
+                        "name": "Summer Love",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Chart Topper",
+                        "duration": "3:10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Guitar Wizard",
+        "Albums": [
+            {
+                "genre": "metal",
+                "name": "Crystal Waters",
+                "year": 1993,
+                "units_sold": 656212,
+                "tracks": []
+            }
+        ]
+    },
+    {
+        "artist": "Techno Tiger",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Golden Memories",
+                "year": 2000,
+                "units_sold": 507719,
+                "tracks": [
+                    {
+                        "name": "Pop Star",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:30"
+                    }
+                ]
+            },
+            {
+                "genre": "country",
+                "name": "Crystal Waters",
+                "year": 1995,
+                "units_sold": 112512,
+                "tracks": [
+                    {
+                        "name": "Love Song",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "pop",
+                "name": "Golden Memories",
+                "year": 2005,
+                "units_sold": 744950,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "2:55"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "reggae",
+                "name": "Enchanted Forest",
+                "year": 1998,
+                "units_sold": 866003,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "2:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Pop Diva",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Crystal Waters",
+                "year": 2008,
+                "units_sold": 217117,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "hip hop",
+                "name": "Golden Memories",
+                "year": 1993,
+                "units_sold": 825541,
+                "tracks": [
+                    {
+                        "name": "Dance All Night",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:55"
+                    }
+                ]
+            },
+            {
+                "genre": "pop",
+                "name": "Enchanted Forest",
+                "year": 2012,
+                "units_sold": 869525,
+                "tracks": [
+                    {
+                        "name": "Chart Topper",
+                        "duration": "4:15"
+                    }
+                ]
+            },
+            {
+                "genre": "reggae",
+                "name": "Sunset Dreams",
+                "year": 1993,
+                "units_sold": 256657,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rockstar Rebel",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Sunset Dreams",
+                "year": 1987,
+                "units_sold": 439390,
+                "tracks": [
+                    {
+                        "name": "Party Anthem",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "2:30"
+                    }
+                ]
+            },
+            {
+                "genre": "rock",
+                "name": "Electric Echoes",
+                "year": 2009,
+                "units_sold": 616166,
+                "tracks": [
+                    {
+                        "name": "Love Song",
+                        "duration": "3:20"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Hit Single",
+                        "duration": "2:15"
+                    },
+                    {
+                        "name": "Party Anthem",
+                        "duration": "4:30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": []
+    },
+    {
+        "artist": "Pop Diva",
+        "Albums": [
+            {
+                "genre": "country",
+                "name": "Starry Nights",
+                "year": 1997,
+                "units_sold": 777760,
+                "tracks": [
+                    {
+                        "name": "Chart Topper",
+                        "duration": "3:10"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "2:55"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Electric Echoes",
+                "year": 2008,
+                "units_sold": 198468,
+                "tracks": []
+            },
+            {
+                "genre": "electronic",
+                "name": "Ocean Breeze",
+                "year": 2005,
+                "units_sold": 401063,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Pop Star",
+                        "duration": "4:45"
+                    }
+                ]
+            },
+            {
+                "genre": "jazz",
+                "name": "Electric Echoes",
+                "year": 1996,
+                "units_sold": 117608,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "4:45"
+                    },
+                    {
+                        "name": "Love Song",
+                        "duration": "4:30"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "3:10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Rap Queen",
+        "Albums": [
+            {
+                "genre": "electronic",
+                "name": "Ocean Breeze",
+                "year": 1984,
+                "units_sold": 328270,
+                "tracks": [
+                    {
+                        "name": "Catchy Tune",
+                        "duration": "4:15"
+                    },
+                    {
+                        "name": "Feel Good",
+                        "duration": "2:30"
+                    },
+                    {
+                        "name": "Dance All Night",
+                        "duration": "2:55"
+                    }
+                ]
+            },
+            {
+                "genre": "electronic",
+                "name": "Golden Memories",
+                "year": 2003,
+                "units_sold": 815114,
+                "tracks": [
+                    {
+                        "name": "Feel Good",
+                        "duration": "3:45"
+                    },
+                    {
+                        "name": "Radio Favorite",
+                        "duration": "5:00"
+                    },
+                    {
+                        "name": "Summer Love",
+                        "duration": "4:30"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:uxap="sap.uxap"
+    xmlns:f="sap.f"
+    xmlns:form="sap.ui.layout.form"
+    controllerName="sap.music.controller.Detail"
+>
+    <uxap:ObjectPageLayout
+        id="idObjectPageLayout"
+        showTitleInHeaderContent="true"
+        alwaysShowContentHeader="false"
+        preserveHeaderStateOnScroll="false"
+        headerContentPinnable="true"
+        isChildPage="true"
+        upperCaseAnchorBar="false"
+    >
+        <uxap:headerTitle>
+            <uxap:ObjectPageDynamicHeaderTitle>
+                <uxap:actions>
+                    <ToggleButton
+                        text="Edit"
+                        type="Emphasized"
+                        press="onEditToggleButtonPress"
+                    />
+                    <ToggleButton
+                        text="Delete"
+                        type="Emphasized"
+                    />
+
+                    <ToggleButton
+                        text="Copy"
+                        type="Emphasized"
+                    />
+
+                    <ToggleButton
+                        icon="sap-icon://action"
+                        type="Emphasized"
+                    />
+                </uxap:actions>
+            </uxap:ObjectPageDynamicHeaderTitle>
+        </uxap:headerTitle>
+
+        <uxap:headerContent>
+            <FlexBox
+                wrap="Wrap"
+                fitContainer="true"
+                alignItems="Stretch"
+            >
+                <Avatar
+                    displaySize="L"
+                    displayShape="Square"
+                    class="sapUiTinyMarginEnd"
+                />
+                <VBox justifyContent="Center">
+                    <Label text="Main Category" />
+                </VBox>
+                <VBox justifyContent="Center">
+                    <Label text="Main Category" />
+                </VBox>
+                <VBox justifyContent="Center">
+                    <Label text="Main Category" />
+                </VBox>
+            </FlexBox>
+        </uxap:headerContent>
+        <uxap:sections>
+            <uxap:ObjectPageSection title="General">
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection>
+                        <uxap:blocks>
+                            <form:SimpleForm
+                                maxContainerCols="2"
+                                editable="false"
+                                layout="ResponsiveGridLayout"
+                                labelSpanL="12"
+                                labelSpanM="12"
+                                emptySpanL="0"
+                                emptySpanM="0"
+                                columnsL="1"
+                                columnsM="1"
+                            >
+                                <form:content>
+                                    <Label text="Product ID" />
+                                    <Label text="Description" />
+                                    <Label text="Supplier" />
+                                </form:content>
+                            </form:SimpleForm>
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+            <uxap:ObjectPageSection title="{artist}'s ALBUMS">
+                <uxap:subSections>
+                    <uxap:ObjectPageSubSection>
+                        <uxap:blocks>
+                            <Table
+                                id="albumsTable"
+                                items="{ 
+                            path: 'Albums'
+                         }"
+                            >
+                                <columns>
+                                    <Column />
+                                </columns>
+                                <items>
+                                    <ColumnListItem>
+                                        <cells>
+                                            <ObjectIdentifier
+                                                text="{name}, {genre}, {year}"
+                                            />
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </uxap:blocks>
+                    </uxap:ObjectPageSubSection>
+                </uxap:subSections>
+            </uxap:ObjectPageSection>
+        </uxap:sections>
+        <uxap:footer>
+            <OverflowToolbar>
+                <ToolbarSpacer />
+                <Button
+                    type="Accept"
+                    text="Save"
+                />
+                <Button
+                    text="Cancel"
+                    type="Reject"
+                />
+            </OverflowToolbar>
+        </uxap:footer>
+    </uxap:ObjectPageLayout>
+</mvc:View>
